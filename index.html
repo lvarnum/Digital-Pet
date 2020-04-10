@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Pet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand mx-auto" href="">Digital Pet</a>
+    </nav>
+    <div class="container home">
+        <div class="row">
+            <div class="col">
+                <h2>Choose Your Pet!</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn" id="dog">Dog</button>
+                <div class="or">~ OR ~</div>
+                <button type="button" class="btn" id="cat">Cat</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pet">
+        <div class="row">
+            <div class="col">
+                <img id="pet" src="">
+                <div class="row">
+                    <div id="dialogue"></div>
+                </div>
+            </div>
+            <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Age: </b><span id="age">0</span></li>
+                    <li class="list-group-item"><b>House Condition: </b><span id="condition">100</span></li>
+                    <li class="list-group-item"><b>Hungry: </b><span id="hungry">No</span></li>
+                    <li class="list-group-item"><b>Sleepy: </b><span id="sleepy">No</span></li>
+                    <li class="list-group-item"><b>Bored: </b><span id="bored">Yes</span></li>
+                    <li class="list-group-item last"><b>Location: </b><span id="local">Inside</span></li>
+                  </ul>
+            </div>
+            <div class="col">
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn feed">Feed</button>
+                    <button type="button" class="btn sleep">Sleep</button>
+                    <button type="button" class="btn play">Play</button>
+                    <button type="button" class="btn talk">Talk</button>
+                    <button type="button" class="btn outside">Go outside</button>
+                    <button type="button" class="btn inside">Go inside</button>
+                    <button type="button" class="btn destroy">Destroy furniture</button>
+                    <button type="button" class="btn buy">Buy new furniture</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="index.js"></script>
+
+</html>

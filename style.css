@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://cdn.hipwallpaper.com/i/32/36/0sbji6.jpg");
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: dodgerblue;
+    border: dashed gold 3px;
+}
+
+.navbar {
+    background-color: dodgerblue;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    background-color: gold;
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+}
+
+#cat, #dog {
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#dog {
+    background-color: midnightblue;
+    color: white;
+}
+
+#cat {
+    background-color: orangered;
+    color: white;
+}
+
+.or {
+    font-size: 18px;
+    margin: 15px;
+}
+
+#pet {
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+
+.feed, .play, .outside, .destroy {
+    background-color: midnightblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sleep, .talk, .inside, .buy {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-group-vertical {
+    width: 60%;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.list-group {
+    width: 100%;
+    float: right;
+    font-size: 18px;
+}
+
+.list-group-item {
+    margin-bottom: 28px;
+}
+
+.buy, .last {
+    margin-bottom: 0px;
+}
+
+#dialogue {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Baloo Bahi 2', cursive;
+}
