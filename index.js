@@ -113,14 +113,14 @@ let pet;
 $("#dog").on("click", () => {
     $(".home").hide();
     $(".pet").show();
-    $("#pet").attr("src", "https://lh3.googleusercontent.com/proxy/R9e1FioeWF-7CngZrxh3osCY1TiRwmLjr8-ZtRw1I02d_Ga_D0obqHCE8WiSDHCTafcFJqn6sYH97grS5gv-M-yz6jeVgDJhaXD6PJyYvg");
+    $("#pet").attr("src", "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/6219/dog-clipart-md.png");
     pet = new DigitalPal("dog");
 });
 
 $("#cat").on("click", () => {
     $(".home").hide();
     $(".pet").show();
-    $("#pet").attr("src", "https://lh3.googleusercontent.com/proxy/yigCxWiTVJ28hDJmK8y-u_d1BG295W1MEFcVTXDiHRR6eJdnq32mVhhpSEbZsOAiZByosHRdHUDlWs2vzL7xraUlBzVcHxo");
+    $("#pet").attr("src", "https://clipartart.com/images/calico-cat-clipart-free-15.png");
     pet = new DigitalPal("cat");
 });
 
